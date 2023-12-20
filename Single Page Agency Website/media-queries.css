@@ -1,0 +1,63 @@
+@media only screen and (max-width:1440px){
+    .contact-info{
+        position: relative;
+    }
+    .counter-right{
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media only screen and (max-width:768px){
+    .menu-items{
+        flex-direction: row-reverse;
+    }
+    .hero-carousel{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .hero-content, .hero-img{
+        max-width: 100%;
+    }
+    .hero-content{
+        padding-block: 5%;
+    }
+    .quote{
+        margin-top: 22%;
+    }
+    .services-content{
+        padding-block: 20px;
+    }
+    .text{
+        width: 80%;
+    }
+    .why-us div:nth-child(2){
+        width: 100%;
+    }
+    .about-us div:nth-child(2){
+        margin-top: 80%;
+        margin-left: 0;
+    }
+    .about-inner-container{
+        margin-right: -10%;
+    }
+    .about-img img{
+        margin-left: -10%;
+        width: 100%;
+        top: 10;
+    }
+    .about-container{
+        overflow: hidden;
+    }
+    .contact-info{
+        position: relative;
+    }
+    .counter-right{
+        position: relative;
+    }
+    .author3, .author4, .author5, .author6, .author7{
+        display: none;
+    }
+    .testimonial{
+        width: 90%;
+    }
+}
