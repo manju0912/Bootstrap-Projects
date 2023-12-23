@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color: #000000;
+    --secondary-color: #30e87a;
+    --accent-color: #7f7f7f;
+    --accent-color-dark: #936dff;
+    --text-color: #ffffff;
+}
+
+body{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+.navbar{
+    padding-block: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    color: var(--text-color);
+}
+.nav-link:hover{
+    color: var(--secondary-color);
+}
