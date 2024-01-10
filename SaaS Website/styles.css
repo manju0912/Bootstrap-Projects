@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,7 @@
 }
 
 :root{
-    --background-color: #000000;
+    --background-color: #ECECEC;
     --secondary-color: #30e87a;
     --accent-color: #7f7f7f;
     --accent-color-dark: #936dff;
@@ -15,10 +17,14 @@
 body{
     background-color: var(--background-color);
     color: var(--text-color);
+    font-family: 'Plus Jakarta Sans', sans-serif;
 }
 .padding{
     padding-inline: 28px;
     padding-block: 22px;
+}
+.padding-inline{
+    padding-inline: 2.5rem;
 }
 .nav-link{
     font-size: 1.1rem;
@@ -68,7 +74,7 @@ body{
     padding-block: 10% 18%;
 }
 
-.hero-section h1 span{
+.green-text{
     color: var(--secondary-color);
 }
 
@@ -80,11 +86,11 @@ body{
     margin-top: -5px;
 }
 .analytics{
-    padding-inline: 2.5rem;
     margin-top: -13%;
+    display: none;
 }
 .analytics div{
-    width: 290px;
+    width: 300px;
     height: 380px;
     overflow: hidden;
 }
@@ -92,4 +98,61 @@ body{
     width: 100%;
     border-radius: 10px 10px;
     object-fit: cover;
+}
+.project-management-content{
+    margin-inline: auto;
+}
+.gray-text{
+    color: #7f7f7f;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+.icon{
+    width: 75px;
+    height: 75px;
+    background-color: var(--accent-color-dark);
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+}
+.icon img{
+    width: 100%;
+    margin: auto;
+}
+.icon:hover{
+    background-color: var(--secondary-color);
+}
+.ul{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.ul p i{
+    margin-right: 10px;
+}
+.performance-section, .workflow-inner-section{
+    background-color: #ffffff;
+    padding-top: 7%;
+}
+.performance-inner-section, .workflow-inner-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green-btn{
+    background-color: var(--secondary-color);
+    transition: all 0.2s ease;
+}
+.green-btn:hover{
+    background-color: var(--accent-color-dark);
+}
+.performance-section div .right, .budget-img{
+    background-color: var(--background-color);
+    border-radius: 20px;
+}
+.performance-section div .right img, .workflow-inner-section .left img{
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
 }

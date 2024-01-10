@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SaaS Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="media-queries.css">
     <link rel="stylesheet" href="styles.css">
@@ -43,10 +44,10 @@
 
   <div class="hero-section container-fluid text-center scrollspy-example" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
     <div class="inner-content">
-      <h1><span>Streamline</span> your projects, empower your team</h1>
+      <h1><span class="green-text">Streamline</span> your projects, empower your team</h1>
       <p class="header-text">Efficient planning, seamless collaboration, and top-notch data protection - all in one place.</p>
       <button type="button" class="btn free-trial-btn fw-semibold my-4">Start free trial <span><img width="25" height="25" src="https://img.icons8.com/windows/32/circled-right.png" alt="circled-right"/></span></button>
-      <div class="d-flex justify-content-center align-items-center column-gap-3 wrap mx-5">
+      <div class="usp d-flex justify-content-center align-items-center column-gap-3 flex-wrap mx-lg-5">
         <p class="icon-text"><span><img class="check-mark-icon" width="20" height="20" src="https://img.icons8.com/android/20/30E87A/checked.png" alt="checked"/></span> 3-Day Free Trial</p>
         <p class="icon-text"><span><img class="check-mark-icon" width="20" height="20" src="https://img.icons8.com/android/20/30E87A/checked.png" alt="checked"/></span> No Credit Card</p>
         <p class="icon-text"><span><img class="check-mark-icon" width="20" height="20" src="https://img.icons8.com/android/20/30E87A/checked.png" alt="checked"/></span> Cancel Anytime</p>
@@ -56,7 +57,7 @@
 
   </div>
 
-  <div class="analytics d-flex justify-content-between align-items-center overflow-hidden column-gap-md-3">
+  <div class="analytics padding-inline d-flex justify-content-between align-items-center overflow-hidden column-gap-md-3">
     <div>
       <img src="./assets/asset 4.png" alt="project views" class="mt-lg-4 mt-3">
     </div>
@@ -72,6 +73,88 @@
       <img src="./assets/asset 8.png" alt="graph" class="mt-lg-4 mt-3">
     </div>
   </div>
+
+  <div class="project-management container-fluid padding-inline">
+    <div class="project-management-content text-center">
+      <h5 class="text-black">Project management essentials</h5>
+      <h2 class="text-black">Plan, execute, and track projects of <span class="green-text">any size</span></h2>
+      <p class="gray-text">Our app offers solid planning tools, seamless collaboration features, robust data protection, and unparalleled software support.</p>
+    </div>
+    <div class="features d-flex justify-content-between align-items-start column-gap-2 pt-4">
+      <div class="planning">
+        <div class="icon">
+          <img src="./assets/data-icon.png" alt="data icon">
+        </div>
+        <h5 class="text-black">Solid Planning</h5>
+        <p class="gray-text px-0">From the small stuff to the big picture, we organize work.</p>
+      </div>
+      <div class="tools">
+        <div class="icon">
+          <img src="./assets/technology-icon.png" alt="technology icon">
+        </div>
+        <h5 class="text-black">Collaboration tools</h5>
+        <p class="gray-text px-0">From the small stuff to the big picture, we organize work.</p>
+      </div>
+      <div class="data">
+        <div class="icon">
+          <img src="./assets/encrypted-icon.png" alt="data protection icon">
+        </div>
+        <h5 class="text-black">Data protection</h5>
+        <p class="gray-text px-0">From the small stuff to the big picture, we organize work.</p>
+      </div>
+      <div class="support">
+        <div class="icon">
+          <img src="./assets/online-chat-icon.png" alt="chat icon">
+        </div>
+        <h5 class="text-black">Software support</h5>
+        <p class="gray-text px-0">From the small stuff to the big picture, we organize work.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Ananlysis section -->
+
+  <div class="container-fluid performance-section">
+     <div class="performance-inner-section padding-inline">
+      <div class="left">
+        <h5 class="text-black">Real-time analytics</h5>
+        <h2 class="text-black">Check project progress and <span class="green-text">performance</span></h2>
+        <p class="gray-text">Boost productivity, optimize workflows, and make data-driven decisions effortlessly.</p>
+        <div class="ul text-black">
+          <p><i class="fa-solid fa-check green-text mr-4"></i> Performance tracking</p>
+          <p><i class="fa-solid fa-check green-text mr-4"></i> Resource optimization</p>
+          <p><i class="fa-solid fa-check green-text mr-4"></i> Predictive analysis</p>
+        </div>
+        <button type="button" class="btn green-btn free-trial-btn fw-semibold my-4">Learn more <span><img width="25" height="25" src="https://img.icons8.com/windows/32/circled-right.png" alt="circled-right"/></span></button>
+      </div>
+      <div class="right p-5 m-lg-1">
+        <img src="./assets/asset 9.png" alt="earnings image">
+      </div>
+     </div>
+  </div>
+
+  <!-- time-vs-budget section -->
+
+  <div class="container-fluid workflow-section">
+    <div class="workflow-inner-section padding-inline">
+      <div class="left w-50 py-5 pe-5">
+        <div class="budget-img p-5">
+          <img src="./assets/asset 10.png" alt="time vs budget">
+        </div>
+      </div>
+     <div class="right w-50">
+       <h5 class="text-black">Seamless workflow</h5>
+       <h2 class="text-black">Powerful and intuitive <span class="green-text">automation</span> engine</h2>
+       <p class="gray-text">Automate repetitive tasks, streamline processes, and enhance productivity with our powerful tools.</p>
+       <div class="ul text-black">
+         <p><i class="fa-solid fa-check green-text mr-4"></i> Workflow stremlining</p>
+         <p><i class="fa-solid fa-check green-text mr-4"></i> Task prioritization</p>
+         <p><i class="fa-solid fa-check green-text mr-4"></i> Notification system</p>
+       </div>
+       <button type="button" class="btn green-btn free-trial-btn fw-semibold my-4">Learn more <span><img width="25" height="25" src="https://img.icons8.com/windows/32/circled-right.png" alt="circled-right"/></span></button>
+     </div>
+    </div>
+ </div>
 
   
 
