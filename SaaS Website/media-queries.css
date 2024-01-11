@@ -39,6 +39,9 @@
     .performance-section div .right{
         width: 40%;
     }
+    .workflow-inner-section .left, .workflow-inner-section .right{
+        width: 50%;
+    }
 }
 
 @media only screen and (max-width:768px) {
@@ -81,6 +84,9 @@
         padding: 0px;
     }
     .performance-section div .right{
+        width: 50%;
+    }
+    .workflow-inner-section .left, .workflow-inner-section .right{
         width: 50%;
     }
     
@@ -130,5 +136,11 @@
     .performance-section div .right{
         width: 100%;
         margin: 0px;
+    }
+    .workflow-inner-section{
+        flex-direction: column-reverse;
+    }
+    .workflow-inner-section .left, .workflow-inner-section .right{
+        width: 100%;
     }
 }
